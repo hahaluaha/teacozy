@@ -8,3 +8,35 @@ body {
     text-align: justify;
 
 }
+
+/* Header */
+nav span {
+    display: inline-block;
+    padding: 15px 10px;
+    color: Seashell;
+    text-decoration: underline;
+
+}
+
+a {
+  color: Seashell;
+  padding-bottom: 20px;
+  align-items: center;
+
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+header {
+  height: 120px;
+  border-bottom: 1px solid seashell;
+}
