@@ -22,6 +22,7 @@ a {
   color: Seashell;
   padding-bottom: 20px;
   align-items: center;
+  margin: auto;
 
 }
 
@@ -39,4 +40,13 @@ header img {
 header {
   height: 120px;
   border-bottom: 1px solid seashell;
+}
+
+/* First Section of Content ourmission */
+
+#ourmission {
+        height: 700px;
+        background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+        padding-top: 60px;
+
 }
