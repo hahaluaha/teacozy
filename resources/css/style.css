@@ -1,12 +1,19 @@
 body {
 
-    font-family: Helvetica;
+    font-family: "Helvetica" , sans-serif;
     font-size: 22px;
     color: Seashell;
     background-color: black;
     opacity: 0.9;
-    text-align: justify;
 
+
+}
+
+h2,
+h3,
+h4 {
+  margin: 0px;
+  padding: 5px;
 }
 
 /* Header */
@@ -20,26 +27,30 @@ nav span {
 
 a {
   color: Seashell;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   align-items: center;
   margin: auto;
 
 }
 
 nav {
+  display: inline-block;
   text-align: right;
+  float: right;
+  padding-top: 10px;
   flex-grow: 1;
 }
 
 header img {
   height: 50px;
   padding-left: 10px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 header {
-  height: 120px;
+  height: 80px;
   border-bottom: 1px solid seashell;
+
 }
 
 /* First Section of Content ourmission */
@@ -51,5 +62,47 @@ header {
         display: flex;
         justify-content: center;
         /* I think flex wrap here in a bit */
+
+}
+
+h2  {
+    display: block;
+    font-weight: bold;
+}
+
+h4 {
+   display: block;
+   font-weight: bold;
+
+}
+
+h2 span {
+    display: inline-block;
+    color: Seashell;
+    background-color: black;
+
+  }
+
+h4 span {
+
+  color: Seashell;
+  background-color: black;
+
+}
+
+.item img {
+
+       height: 200px;
+       width: 300px;
+       margin: 10px 10px;
+       display: block;
+}
+
+.item span {
+
+      display: block;
+      padding: 5px 5px;
+      font-weight: bold;
+      text-align: center;
 
 }
