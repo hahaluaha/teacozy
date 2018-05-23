@@ -48,5 +48,8 @@ header {
         height: 700px;
         background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
         padding-top: 60px;
+        display: flex;
+        justify-content: center;
+        /* I think flex wrap here in a bit */
 
 }
