@@ -37,7 +37,7 @@ nav {
   display: inline-block;
   text-align: right;
   float: right;
-  padding-top: 10px;
+  padding-right: 10px;
   flex-grow: 1;
 }
 
@@ -47,9 +47,21 @@ header img {
   padding-top: 10px;
 }
 
-header {
+.flex-conteiner {
+  display: flex;
   height: 80px;
   border-bottom: 1px solid seashell;
+
+}
+
+header {
+   width: 100%;
+   height: 75px;
+   background-color: black;
+   border-bottom: 1px solid Seashell;
+   position: fixed;
+   z-index: 1;
+   align-items: center;
 
 }
 
@@ -57,11 +69,19 @@ header {
 
 #ourmission {
         height: 700px;
-        background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
-        padding-top: 60px;
+        /*background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");*/
+        padding-top: 10px;
         display: flex;
         justify-content: center;
         /* I think flex wrap here in a bit */
+
+}
+
+.text-block {
+     display: flex;
+     background-color: #000000;
+     color: Seashell;
+
 
 }
 
@@ -75,7 +95,7 @@ h4 {
    font-weight: bold;
 
 }
-
+/*
 h2 span {
     display: inline-block;
     color: Seashell;
@@ -88,7 +108,7 @@ h4 span {
   color: Seashell;
   background-color: black;
 
-}
+} */
 
 .item img {
 
