@@ -67,7 +67,7 @@ header {
 
 /* First Section of Content ourmission */
 
-#ourmission {
+#ourmission .content{
         height: 700px;
         /*background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");*/
         padding-top: 10px;
@@ -77,25 +77,30 @@ header {
 
 }
 
-.text-block {
+/* .conteiner {
+     width: 400px;
+     border: solid 1px black;
      display: flex;
      justify-content: space-around;
-     background-color: #000000;
      color: Seashell;
 
 
-}
+} */
 
-h2.text-block  {
-    display: block;
+.content h2 {
+    flex-direction: row;
+    width: 20%;
+    border: 1px solid white; /*change to black after knowing if works */
     font-weight: bold;
-    background-color: black;
+    margin-right: auto;
 }
 
-h4 {
-   display: block;
-   font-weight: bold;
-   background-color: black;
+.content h4 {
+   flex-direction: row;
+   width: 20%;
+   border: 1px solid white;
+   height: 200px;
+   margin-left: auto;
 
 }
 /*
