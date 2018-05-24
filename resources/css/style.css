@@ -64,6 +64,17 @@ header {
    align-items: center;
 
 }
+       /* Main Conteiner Section */
+
+.main-conteiner {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-around;
+}
 
 /* First Section of Content ourmission */
 
@@ -76,7 +87,7 @@ header {
         /* I think flex wrap here in a bit */
 
 }
-
+/*
  .conteiner {
      display: inline;
      position: relative;
@@ -87,8 +98,22 @@ header {
   h2 h4 {
     background: black;
     position: absolute;
+    width: 1200px;
+    height: 100px;
 
   }
+*/
+.shape.square {
+     text-align: center;
+     background-color: black;
+     width: 200px;
+     height: 150px;
+     line-height: 60px;
+     color: Seashell;
+     margin: 20px auto;
+     position: relative;
+
+}
 
 
 /*
