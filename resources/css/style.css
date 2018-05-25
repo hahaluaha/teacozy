@@ -74,6 +74,7 @@ header {
   flex-wrap: wrap;
   align-items: center;
   align-content: space-around;
+
 }
 
 /* First Section of Content ourmission */
@@ -85,6 +86,18 @@ header {
         display: flex;
         justify-content: center;
         /* I think flex wrap here in a bit */
+
+}
+
+.flex-conteiner {
+        display: inline;
+        flex-wrap: nowrap;
+
+}
+
+.text-conteiner {
+      flex-grow: 1;
+      align-self: center;
 
 }
 /*
@@ -103,15 +116,13 @@ header {
 
   }
 */
-.shape.square {
-     text-align: center;
-     background-color: black;
-     width: 200px;
-     height: 150px;
-     line-height: 60px;
-     color: Seashell;
-     margin: 20px auto;
-     position: relative;
+.sale-items {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       flex-wrap: wrap;
+       align-items: center;
+       align-content: space-around;
 
 }
 
