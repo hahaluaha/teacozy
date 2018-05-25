@@ -5,6 +5,7 @@ body {
     color: Seashell;
     background-color: black;
     opacity: 0.9;
+    margin: 0;
 
 
 }
@@ -131,6 +132,7 @@ header {
        align-content: space-around;
        width: 1000px;
        padding-bottom: 50px;
+       padding-bottom: 200px;
 
 }
 
@@ -160,4 +162,26 @@ header {
       font-weight: bold;
       justify-content: center;
 
+}
+           /*Locations Section */
+.locations {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        align-items: center;
+        height: 500px;
+        padding-bottom: 200px;
+
+
+}
+
+.box {
+
+  display: block;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  align-items: center;
 }
