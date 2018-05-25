@@ -157,31 +157,77 @@ header {
 
 .item span {
 
-      display: inline;
-      padding: 20px 10px;
+      display: block;
+      padding: 10px;
       font-weight: bold;
-      justify-content: center;
+      text-align: center;
 
 }
            /*Locations Section */
 .locations {
 
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        flex-wrap: nowrap;
-        align-items: center;
+        background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
         height: 500px;
         padding-bottom: 200px;
-
+        padding-top: 90px;
 
 }
 
-.box {
+div {
 
   display: block;
   flex-direction: row;
   justify-content: space-around;
-  flex-wrap: nowrap;
-  align-items: center;
+
+}
+
+h2 {
+      display: block;
+      font-weight: bold;
+      -webkit-margin-before: 0.83em;
+      -webkit-margin-after: 0.83em;
+      -webkit-margin-start: 0px;
+      -webkit-margin-end: 0px;
+}
+
+#locations .flex-conteiner {
+      width: 1000px;
+      margin: auto;
+}
+
+.flex-conteiner.locations {
+     padding-top: 10px;
+}
+
+.flex-conteiner {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+}
+
+.location {
+     opacity: 1;
+     background-color: black;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     padding: 10px;
+     margin: 10px 20px;
+}
+
+h3 {
+     display: block;
+     font-weight: bold;
+     -webkit-margin-before: 1em;
+     -webkit-margin-after: 1em;
+     -webkit-margin-start: 0px;
+     -webkit-margin-end: 0px;
+}
+
+p {
+     display: block;
+     -webkit-margin-before: 1em;
+     -webkit-margin-after: 1em;
+     -webkit-margin-start: 0px;
+     -webkit-margin-end: 0px;
 }
