@@ -83,7 +83,11 @@ header {
         height: 700px;
         /*background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");*/
         padding-top: 10px;
+        padding-bottom: 150px;
         display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
         justify-content: center;
         /* I think flex wrap here in a bit */
 
@@ -116,6 +120,8 @@ header {
 
   }
 */
+        /* Items for Sale Section */
+
 .sale-items {
        display: flex;
        flex-direction: row;
@@ -123,24 +129,21 @@ header {
        flex-wrap: wrap;
        align-items: center;
        align-content: space-around;
+       width: 1000px;
+       padding-bottom: 50px;
 
 }
 
+.store-highlight {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       align-content: center;
+       padding-top: 30px;
+       padding-bottom: 15px;
 
-/*
-h2 span {
-    display: inline-block;
-    color: Seashell;
-    background-color: black;
-
-  }
-
-h4 span {
-
-  color: Seashell;
-  background-color: black;
-
-} */
+}
 
 .item img {
 
@@ -152,9 +155,9 @@ h4 span {
 
 .item span {
 
-      display: block;
-      padding: 5px 5px;
+      display: inline;
+      padding: 20px 10px;
       font-weight: bold;
-      justify-content: space-around;
+      justify-content: center;
 
 }
