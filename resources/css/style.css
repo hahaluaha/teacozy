@@ -169,8 +169,17 @@ header {
         height: 700px;
         width: 1150px;
         padding-top: 60px;
+        display: flex;
 
 }
+
+.text-on-image {
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      color: Seashell;
+
+  }
 
 div {
 
@@ -183,12 +192,13 @@ div {
 h2 {
       display: block;
       font-weight: bold;
-      -webkit-margin-before: 0.83em;
+      -webkit-margin-before: 2em;
       -webkit-margin-after: 0.83em;
       -webkit-margin-start: 0px;
       -webkit-margin-end: 0px;
       text-align: center;
-      align-items: flex-start;
+      flex-wrap: wrap;
+
 }
 
 #locations .flex-conteiner {
@@ -260,7 +270,14 @@ h5 {
 
         /* Footer Section */
 
-footer {
-    text-align: left;
-    padding-left: 20px;
+.footer {
+       display: flex;
+       align-items: flex-start;
+       justify-content: flex-start;
+
+}
+.footer-text {
+     text-align: left;
+     color: Seashell;
+
 }
