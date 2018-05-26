@@ -78,7 +78,7 @@ header {
 
 }
 
-      /* First Section of Content ourmission */
+      /* First Section of Content ourmission, This is a much simpler and easier shorter way of doing this text over images */
 
 .background-image-conteiner {
         height: 700px;
@@ -88,7 +88,6 @@ header {
         display: flex;
         align-items: center;
         justify-content: center;
-        /* I think flex wrap here in a bit */
 
 }
 
@@ -121,7 +120,8 @@ header {
 
   }
 */
-        /* Items for Sale Section */
+
+           /* Items for Sale Section */
 
 .sale-items {
        display: flex;
