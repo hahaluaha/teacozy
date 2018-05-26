@@ -70,7 +70,7 @@ header {
 .main-conteiner {
 
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
@@ -78,17 +78,15 @@ header {
 
 }
 
-/* First Section of Content ourmission */
+      /* First Section of Content ourmission */
 
-#ourmission {
+.background-image-conteiner {
         height: 700px;
-        /*background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");*/
+        background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+        background-size: cover;
         padding-top: 10px;
-        padding-bottom: 150px;
         display: flex;
-        flex-direction: column;
         align-items: center;
-        align-content: center;
         justify-content: center;
         /* I think flex wrap here in a bit */
 
@@ -100,9 +98,11 @@ header {
 
 }
 
-.text-conteiner {
-      flex-grow: 1;
-      align-self: center;
+.text-over-image {
+      background: black;
+      color: Seashell;
+      width: 1200px;
+      text-align: center;
 
 }
 /*
