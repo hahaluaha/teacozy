@@ -190,14 +190,14 @@ div {
 }
 
 h2 {
-      display: block;
+      
       font-weight: bold;
       -webkit-margin-before: 2em;
       -webkit-margin-after: 0.83em;
       -webkit-margin-start: 0px;
       -webkit-margin-end: 0px;
       text-align: center;
-      flex-wrap: wrap;
+
 
 }
 
@@ -271,13 +271,14 @@ h5 {
         /* Footer Section */
 
 .footer {
-       display: flex;
+       display: block;
        align-items: flex-start;
        justify-content: flex-start;
 
 }
 .footer-text {
-     text-align: left;
+     padding-right: 950px;
+     float: left;
      color: Seashell;
 
 }
